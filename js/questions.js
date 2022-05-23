@@ -9,115 +9,132 @@ function CQuiz(que, o1, o2, o3, o4, ans, d) {
 	this.asked = d;
 }
 
-// Question 1
 var q1 = new CQuiz(
-	'Which function among the following lets to register a function to be invoked repeatedly after a certain time?',
-	'setTimeout()',
-	'setTotaltime()',
-	'setInterval()',
-	'none of the mentioned',
-	3,
+	'Welches Land gehört zu eine der wichtigsten Mining-Nationen?',
+	'Russland',
+	'Indien',
+	'China',
+	'USA',
+	1,
 	0
 );
 
-// Question 2
 var q2 = new CQuiz(
-	'To which object does the location property belong?',
-	'Window',
-	'Position',
-	'Element',
-	'Location',
+	'Wann wurde die Kryptowährung "Bitcoin" erfunden?',
+	'2003',
+	'2015',
+	'2008',
+	'1998',
 	1,
 	0
 );
 
-// Question 3
 var q3 = new CQuiz(
-	'What is the result of the following code snippet? <br> <pre> window.location === document.location </pre>',
-	'False',
-	'True',
-	'1',
-	'0',
-	2,
+	'Welches ist die bekannteste Kryptowährung?',
+	'Dodgecoin',
+	'Ethereum',
+	'Bitcoin',
+	'',
+	1,
 	0
 );
-
-// Question 4
 var q4 = new CQuiz(
-	'Which of the following is not a framework?',
-	'jQuery',
-	'.NET',
-	'JavaScript',
-	'None of the mentioned',
-	3,
+	'Welche Kryptowährung ist weniger stromintensiv/klimafreundlich?',
+	'Monero',
+	'Ethereum',
+	'Bitcoin',
+	'Chia',
+	1,
 	0
 );
-
-// Question 5
 var q5 = new CQuiz(
-	'Inside which HTML element do we put the JavaScript?',
-	'&lt;javascript&gt;',
-	'&lt;script&gt;',
-	'&lt;scripting&gt;',
-	'&lt;js&gt;',
-	2,
-	0
+	'Wie viel Elektroschrott wird durch eine Transaktion verursacht',
+	'135 Gramm',
+	'20 Gramm',
+	'3 Gramm',
+	1, //correct answer
+	0 // eifach '0' schribe
 );
-
-// Question 6
 var q6 = new CQuiz(
-	'What is the correct JavaScript syntax to change the content of the HTML element below? <br> <pre>&lt;p id="demo"&gtThis is made by Owais.&lt;/p&gt</pre>',
-	'document.getElementByName("p").innerHTML = "Hello World!";',
-	'#demo.innerHTML = "Hello World!";',
-	'document.getElementById("demo").innerHTML = "Hello World!";',
-	'document.getElement("p").innerHTML = "Hello World!";',
-	3,
-	0
+	'Wie viel Prozent des Bitcoin-Mining stammen aus erneuerbarer Energie?',
+	'30%',
+	'60%',
+	'10%',
+	2, //correct answer
+	0 // eifach '0' schribe
 );
-
-// Question 7
 var q7 = new CQuiz(
-	'What is the correct syntax for referring to an external script called "script.js"?',
-	'&lt;script src="script.js"&gt;',
-	'&lt;script href="script.js"&gt;',
-	'&lt;script name="script.js"&gt;',
-	'&lt;script link="script.js"&gt;',
-	1,
-	0
+	'Wie viel Strom wird jährich für das Bitcoin-Mining aufgewendet?',
+	'26122 KW/h',
+	'247000 KW/h ',
+	'343 KW/h',
+	2, //correct answer
+	0 // eifach '0' schribe
 );
-
-// Question 8
 var q8 = new CQuiz(
-	'How do you write "Hello World" in an alert box?',
-	'alert("Hello World");',
-	'msgBox("Hello World");',
-	'prompt("Hello World");',
-	'alertBox("Hello World");',
-	1,
-	0
+	'Was ist Cryptomining?',
+	'Crypto transaktionen verwaltung',
+	'Berechnen von crypto blockchains',
+	'Bezeichnet das Abschürfen und Verifizieren digitaler Währungen',
+	3, //correct answer
+	0 // eifach '0' schribe
 );
-
-// Question 9
 var q9 = new CQuiz(
-	'How do you create a function in JavaScript?',
-	'function = myFunction()',
-	'function:myFunction()',
-	'function myFunction()',
-	'None of the mentioned',
-	3,
-	0
+	'Warum ist Cryptomining hauptsächlich schädlich für das Klima?',
+	'Kryptowährungen brauchen viel Öl, um verwendet zu werden',
+	'Schürfen von Kryptowährungen verbraucht extrem viel Strom',
+	'Nicht erneuerbare Energie',
+	2, //correct answer
+	0 // eifach '0' schribe
 );
-
-// Question 10
 var q10 = new CQuiz(
-	'How do you call a function named "myFunction"?',
-	'myFunction()',
-	'call function myFunction()',
-	'call myFunction()',
-	'None of the mentioned',
-	1,
-	0
+	'Wie viel Energie braucht ein Überweisung von Bitcoin?',
+	'1000 W/h',
+	'Wie ein Schweizer, in 1.5 Monaten',
+	'Wie eine Windmühle, pro Woche',
+	2, //correct answer
+	0 // eifach '0' schribe
+);
+var q11 = new CQuiz(
+	'Wie viel vom gesamten Stromverbrauch wird vom Bitcoin-Mining verbraucht?',
+	'15.69%',
+	'10.97%',
+	'23.36%',
+	1, //correct answer
+	0 // eifach '0' schribe
+);
+var q12 = new CQuiz(
+	'Prozentsteigung von nachhaltigem Stromix für Bitcoin-Minig von Januar-März?',
+	'99.99%',
+	'16.9%',
+	'21.6%',
+	3, //correct answer
+	0 // eifach '0' schribe
+);
+var q13 = new CQuiz(
+	'Um wieviel Prozent sank der Energieverbrauch zur Gewinnung von Bitcoin?',
+	'25%',
+	'20%',
+	'22%',
+	1, //correct answer
+	0 // eifach '0' schribe
+);
+var q14 = new CQuiz(
+	'Wie viel Prozent stieg die Mining-Effizienz?',
+	'62%',
+	'63%',
+	'78%',
+	1, //correct answer
+	0 // eifach '0' schribe
+);
+var q15 = new CQuiz(
+	'Eine Bitcoin-Transaktion braucht so viel Strom wie ein US-Haushalt in ...',
+	'2 Tagen',
+	'23 Tagen',
+	'10 Tagen',
+	2, //correct answer
+	0 // eifach '0' schribe
 );
 
 // total question...
-var totQ = [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10];
+var totQ = [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15];
