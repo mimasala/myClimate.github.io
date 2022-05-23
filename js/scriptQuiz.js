@@ -72,7 +72,7 @@ function typing() {
 
 function chkPass(btn) {
 	// checking password
-	if (pass.value == myclimatecrypto) {
+	if (pass.value == 11223344) {
 		// if password is correct
 		pass.setAttribute('disabled', 'disabled'); // make input box disabled - just for good UX
 		submitBtn.setAttribute('disabled', 'disabled'); // make input box disabled - again just for good UX
